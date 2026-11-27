@@ -11,6 +11,7 @@ namespace ThreadPoolExample
     {
         static void Main(string[] args)
         {
+            //Example Changes 2
             ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
             Thread.Sleep(100);
         }
